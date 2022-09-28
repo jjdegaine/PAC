@@ -28,7 +28,7 @@ You can create your own pack using appinventor.
 
 the code is available using https://appinventor.mit.edu/ (bluetooth3.aia)
 
-![nomimage](code bluetooth 1.jpgg)
+![nomimage](code bluetooth 1.jpg)
 
 # Macrodroid
 
