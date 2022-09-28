@@ -24,7 +24,7 @@ html: true
 to collect the power average power supply a small android program must be used (bluetooth3.apk), please note that this .apk is not signed by google. 
 You can create your own pack using appinventor.
 
-[github](https://github.com/jjdegaine/PAC)
+[github](https://github.com/jjdegaine/PAC) repository
 
 the code is available using https://appinventor.mit.edu/ (bluetooth3.aia)
 
