@@ -17,6 +17,10 @@ html: true
     
     depending on the power supply value Jeedom will modify the temperature setting
 
+# electric wiring and radio mesh
+
+![nomimage](electric_wiring_and_radio_mesh.jpg)
+
 # android program
 
 to collect the power average power supply a small android program must be used (MQTTV6.apk), please note that this .apk is not signed by google. 
@@ -42,9 +46,7 @@ The plugin MQTT is used to read the value sent by the android APP
 
 ![nomimage](jeedom_scenario.jpg)
 
-# electric wirng and radio mesh
 
-![nomimage](electric_wiring_and_radio_mesh.jpg)
 
 
 
