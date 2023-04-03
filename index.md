@@ -36,8 +36,11 @@ the code is available using https://appinventor.mit.edu/ (MQTTV6-2.aia)
 
 ![nomimage](mqttV6_3.jpg)
 
+Note: I was not able to connect bluetooth directly on Jeedom (may be in the future...)
 
 # Jeedom
+
+Jeedom is running on Virtual box win 10. waiting Raspberry Pi 4...
 
 The swimmimg pool heat pump is a poolex Q line 9 which can be controlled by a Tuya APP on android.
 Using the plugin wifilightV2 the pump can be controlled by Jeedom
