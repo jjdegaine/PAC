@@ -12,34 +12,34 @@ html: true
     
     The mains power supply is measured by a Solar Panel Optimizer 
     (see https://jjdegaine.github.io/Wifi-Solar-panel-optimizer-/)
-    every 5 minutes the average power supply is broadcast by bluetooth
-    a small android programm collect this value and send it to an android automation app 
-    (Macrodroid https://www.macrodroid.com/)
-
-    depending on the power supply value macrodroid will simulate click on the pool heat pump app 
-    (https://ismartlife.me/)
+    every 5 minutes the average power supply and relay status is broadcast by bluetooth
+    a small android programm collect this value and send it to an MQTT server (Mosquitto), theses value are used by Jeedom 
+    
+    depending on the power supply value Jeedom will modify the temperature setting
 
 # android program
 
-to collect the power average power supply a small android program must be used (bluetooth3.apk), please note that this .apk is not signed by google. 
+to collect the power average power supply a small android program must be used (MQTTV6.apk), please note that this .apk is not signed by google. 
 You can create your own pack using appinventor.
 
 [github](https://github.com/jjdegaine/PAC) repository
 
-the code is available using https://appinventor.mit.edu/ (bluetooth3.aia)
+the code is available using https://appinventor.mit.edu/ (MQTTV6-2.aia)
 
-![nomimage]((https://github.com/jjdegaine/PAC/code_bluetooth.jpg)
+![nomimage]((https://github.com/jjdegaine/PAC/mqttV6_1.jpg)
+![nomimage]((https://github.com/jjdegaine/PAC/mqttV6_2.jpg)
+![nomimage]((https://github.com/jjdegaine/PAC/mqttV6_3.jpg)
 
-# Macrodroid
 
-the macrodroid automation will simulate click on the smartlife app
+# Jeedom
 
-if power supply is < "min value" click on start Heat power pump button
+The swimmimg pool heat pump is a poolex Q line 9 which can be controlled by a Tuya APP on android.
+Using the plugin wifilightV2 the pump can be controlled by Jeedom
 
-if power supply is < "increase value" click on temp +
-    
-if power supply is > "decrease value" click on temp -
+The plugin MQTT is used to read the value sent by the android APP
 
-if power supply is > "max value" click on stop Heat power pump button
+![nomimage](https://github.com/jjdegaine/PAC/jeedom_scenario.jpg)
+
+
 
 
