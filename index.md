@@ -42,6 +42,10 @@ The plugin MQTT is used to read the value sent by the android APP
 
 ![nomimage](jeedom_scenario.jpg)
 
+# electric wirng and radio mesh
+
+![nomimage](electric_wiring_and_radio_mesh.jpg)
+
 
 
 
