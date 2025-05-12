@@ -23,7 +23,7 @@ html: true
 
 # android program
 
-to collect the power average power supply a small android program must be used (MQTTV6.apk), please note that this .apk is not signed by google. 
+to collect the power average power supply a small android program must be used (Hiver_HAV5.apk), please note that this .apk is not signed by google. 
 You can create your own pack using appinventor.
 
 [github](https://github.com/jjdegaine/PAC) repository
